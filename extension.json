@@ -1,0 +1,13 @@
+{
+  "code": "thoughtco.checkoutmap",
+  "name": "Checkout map",
+  "description": "Allow users to drop a pin for delivery location",
+  "version": "1.0.0",
+  "author": "ryanmitchell",
+  "icon": {
+    "class": "fa fa-map",
+    "backgroundColor": "#111",
+    "color": "#FFF"
+  },
+  "homepage": "https://github.com/ryanmitchell/ti-ext-checkoutmap"
+}
