@@ -21,7 +21,11 @@ class CheckoutMap extends BaseComponent
 
     public function initialize()
     {
+        if (!Location::current())
+            return;
+            
         $locationModel = Location::current()->getModel();
+
         $this->page['zoom'] = $this->property('zoom');
         $this->page['initialLat'] = $locationModel->location_lat;
         $this->page['initialLng'] = $locationModel->location_lng;
